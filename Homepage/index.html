@@ -5,6 +5,14 @@
   <title>小pai院长-Homepage</title>
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./index.css">
+  <script>
+        var ua = (navigator.userAgent || navigator.vendor || window.opera).toLowerCase();
+        document.documentElement.className += /(iPad|iPhone|Android)/i.test(ua) ? ' is-mobile' : ' is-desktop';
+        document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+            window.location.href = "https://blog.p4i.top";
+        }
+    </script>
 
 </head>
 <body>
